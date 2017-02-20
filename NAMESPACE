@@ -1,0 +1,8 @@
+
+export(xMSwrapper, xMSwrapper.apLCMS,xMSwrapper.XCMS.matchedFilter,
+feat.batch.annotation.KEGG, getVenn, getVennmultiple,evaluate.Samples,
+evaluate.Features,find.Overlapping.mzs,check.mz.in.replicates,
+merge.Results, apLCMS.align,XCMS.align.centWave, getCVreplicates.child,
+xMSwrapper.XCMS.centWave,XCMS.align.matchedFilter, countpeaks,
+MetabComBat)
+import(apLCMS, foreach, mzR, xcms,XML,R2HTML, limma, RCurl, rgl, doSNOW,mixOmics,sva,WGCNA)

@@ -1,0 +1,14 @@
+Package: xMSanalyzer
+Type: Package
+Title: xMSanalyzer: R package for data analysis, comparison, and
+        annotation of metabolomics data.
+Version: 2.0.6.1
+Date: 2015-5-21
+Author: Karan Uppal
+Maintainer: Karan Uppal <kuppal2@emory.edu>
+Description: xMSanalyzer comprises of utilities that can be classified into four main modules: 1) merging apLCMS or XCMS sample processing results from multiple sets of parameter settings, 2) evaluation of sample quality and feature consistency, 3) feature matching, and 4) characterization of m/z using KEGG REST
+License: GPL2.0
+LazyLoad: yes
+Depends: apLCMS, xcms, XML, R2HTML, limma, RCurl, rgl, doSNOW, mzR,
+        foreach, sva, mixOmics, WGCNA
+Packaged: 2015-05-21 17:48:43 UTC; Karan
