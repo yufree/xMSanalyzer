@@ -3,10 +3,11 @@
 \title{XCMS.align.matchedFilter}
 \description{Runs XCMS using the matchedFilter alignment algorithm at different parameter settings.}
 \usage{
-XCMS.align.matchedFilter(cdfloc, XCMS.outloc, step.list = c(0.001), mz.diff.list = c(0.1), 
-sn.thresh.list = c(3), max =50, bw.val = c(10), minfrac.val = 0.5, minsamp.val = 2, 
-mzwid.val = 0.25, sleep.val = 0, run.order.file = NA, subs = NA, retcor.family = "symmetric",
-retcor.plottype = "mdevden", groupval.method = "medret")
+XCMS.align.matchedFilter(cdfloc, XCMS.outloc, step.list = c(0.001), 
+    mz.diff.list = c(0.1), sn.thresh.list = c(3), max = 50, bw.val = c(10), 
+    minfrac.val = 0.5, minsamp.val = 2, mzwid.val = 0.25, sleep.val = 0, 
+    run.order.file = NA, subs = NA, retcor.family = "symmetric", 
+    retcor.plottype = "mdevden", groupval.method = "medret")
 }
 \arguments{
 \item{cdfloc}{The folder where all CDF/mzXML files to be processed are located. For example "C:/CDF/"}

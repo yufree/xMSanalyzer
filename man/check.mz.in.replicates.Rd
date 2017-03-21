@@ -3,7 +3,7 @@
 \title{check.mz.in.replicates}
 \description{Function to find metabolic characteristics of individuals.}
 \usage{
-check.mz.in.replicates(dataA, min.samps=2, min.reps=2, num_replicates=3)
+check.mz.in.replicates(dataA, min.samps = 2, min.reps = 2, num_replicates = 3)
 }
 \arguments{
   \item{dataA}{Sample intensity matrix from apLCMS or XCMS. 

@@ -4,22 +4,17 @@
 \description{Wrapper function based on apLCMS.align,evaluate.Features,
 evaluate.Samples,merge.Results, and feat.batch.annotation.}
 \usage{
-xMSwrapper.apLCMS(cdfloc, apLCMS.outloc, xMSanalyzer.outloc,
-                min.run.list = c(4,3), min.pres.list = c(0.5, 0.8),
-                minexp.pct = 0.1, mztol = NA, alignmztol = NA,
-                alignchrtol = NA, numnodes = NA, run.order.file = NA,
-                apLCMSmode = "untargeted", known_table = NA,
-                match_tol_ppm = 5, max.mz.diff = 15, max.rt.diff =
-                300, merge.eval.pvalue = 0.2, mergecorthresh = 0.7,
-                deltamzminmax.tol = 10, subs = NA, num_replicates = 3,
-                mz.tolerance.dbmatch = 10, adduct.list = c("M+H"),
-                samp.filt.thresh = 0.7, feat.filt.thresh = 50,
-                cormethod = "pearson", mult.test.cor = TRUE,
-                missingvalue = 0, ignore.missing = TRUE, filepattern =
-                ".cdf", sample_info_file = NA, refMZ = NA,
-                refMZ.mz.diff = 10, refMZ.time.diff = NA,
-                void.vol.timethresh = 30, replacezeroswithNA = TRUE,
-                scoreweight = 30,charge_type="pos", syssleep=0.5)
+xMSwrapper.apLCMS(cdfloc, apLCMS.outloc, xMSanalyzer.outloc, min.run.list = c(4, 
+    3), min.pres.list = c(0.5, 0.8), minexp.pct = 0.1, mztol = NA, alignmztol = NA, 
+    alignchrtol = NA, numnodes = NA, run.order.file = NA, apLCMSmode = "untargeted", 
+    known_table = NA, match_tol_ppm = 5, max.mz.diff = 15, max.rt.diff = 300, 
+    merge.eval.pvalue = 0.2, mergecorthresh = 0.7, deltamzminmax.tol = 10, 
+    subs = NA, num_replicates = 3, mz.tolerance.dbmatch = 10, adduct.list = c("M+H"), 
+    samp.filt.thresh = 0.7, feat.filt.thresh = 50, cormethod = "pearson", 
+    mult.test.cor = TRUE, missingvalue = 0, ignore.missing = TRUE, filepattern = ".cdf", 
+    sample_info_file = NA, refMZ = NA, refMZ.mz.diff = 10, refMZ.time.diff = NA, 
+    void.vol.timethresh = 30, replacezeroswithNA = TRUE, scoreweight = 30, 
+    charge_type = "pos", syssleep = 0.5)
 }
 \arguments{
   \item{cdfloc}{The folder where all NetCDF/mzML/mzXML/mzData) files to be processed are located. For example "C:/CDF/"}

@@ -12,3 +12,4 @@ LazyLoad: yes
 Depends: apLCMS, xcms, XML, R2HTML, limma, RCurl, rgl, doSNOW, mzR,
         foreach, sva, mixOmics, WGCNA
 Packaged: 2015-05-21 17:48:43 UTC; Karan
+RoxygenNote: 6.0.1

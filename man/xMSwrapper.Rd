@@ -4,7 +4,8 @@
 \description{
 Tells user about the usage of wrapper functions for apLCMS and XCMS. 
 }
-\usage{xMSwrapper()
+\usage{
+xMSwrapper()
 }
 \references{put references to the literature/web site here
 }

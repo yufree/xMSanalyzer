@@ -4,8 +4,8 @@
 \description{ Function that merges results from different parameter settings.}
 \usage{
 merge.Results(dataA, dataB, feat.eval.A, feat.eval.B, max.mz.diff = 15, 
-max.rt.diff = 300,merge.eval.pvalue = 0.05, alignment.tool="apLCMS", numnodes = 1, 
-mult.test.cor=FALSE,mergecorthresh=0.7, missingvalue=0)
+    max.rt.diff = 300, merge.eval.pvalue = 0.05, alignment.tool = "apLCMS", 
+    numnodes = 1, mult.test.cor = FALSE, mergecorthresh = 0.7, missingvalue = 0)
 }
 \arguments{
   \item{dataA}{feature alignment output matrix from apLCMS or XCMS with

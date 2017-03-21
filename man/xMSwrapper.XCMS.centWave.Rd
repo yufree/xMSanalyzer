@@ -5,18 +5,21 @@
 evaluate.Features,evaluate.Samples,merge.Results, and feat.batch.annotation}
 \usage{
 xMSwrapper.XCMS.centWave(cdfloc, XCMS.outloc, xMSanalyzer.outloc, 
-ppm.list =c(10, 25, 30), mz.diff.list = c(-0.001, 0.1), sn.thresh.list = c(3, 5, 10),
-prefilter.list = c(3,100), bw.val = c(10, 30), groupval.method = "medret",
-step.list = c(0.1, 1), max = 50, minfrac.val = 0.5,minsamp.val = 2, mzwid.val = 0.25, sleep.val = 0,
-retcor.method = "obiwarp", retcor.family ="symmetric", retcor.plottype = "deviation",
-peakwidth = c(20, 50), numnodes = 2, run.order.file = NA,max.mz.diff = 15, 
-max.rt.diff = 300, merge.eval.pvalue = 0.2, mergecorthresh = 0.7, 
-deltamzminmax.tol = 10,num_replicates = 2, subs = NA, mz.tolerance.dbmatch =10,
-adduct.list = c("M+H"), samp.filt.thresh = 0.7,feat.filt.thresh = 50,
-cormethod = "pearson",mult.test.cor = TRUE, missingvalue = 0, ignore.missing= TRUE,
-sample_info_file = NA, refMZ = NA,refMZ.mz.diff = 10, refMZ.time.diff = NA,
-void.vol.timethresh = 30, replacezeroswithNA = TRUE, scoreweight = 30,
-filepattern = ".cdf", charge_type="pos",minexp.pct=0.1,syssleep=0.5)
+    ppm.list = c(10, 25, 30), mz.diff.list = c(-0.001, 0.1), 
+    sn.thresh.list = c(3, 5, 10), prefilter.list = c(3, 100), 
+    bw.val = c(10, 30), groupval.method = "medret", step.list = c(0.1, 
+        1), max = 50, minfrac.val = 0.5, minsamp.val = 2, mzwid.val = 0.25, 
+    sleep.val = 0, retcor.method = "obiwarp", retcor.family = "symmetric", 
+    retcor.plottype = "deviation", peakwidth = c(20, 50), numnodes = 2, 
+    run.order.file = NA, max.mz.diff = 15, max.rt.diff = 300, 
+    merge.eval.pvalue = 0.2, mergecorthresh = 0.7, deltamzminmax.tol = 10, 
+    num_replicates = 2, subs = NA, mz.tolerance.dbmatch = 10, 
+    adduct.list = c("M+H"), samp.filt.thresh = 0.7, feat.filt.thresh = 50, 
+    cormethod = "pearson", mult.test.cor = TRUE, missingvalue = 0, 
+    ignore.missing = TRUE, sample_info_file = NA, refMZ = NA, 
+    refMZ.mz.diff = 10, refMZ.time.diff = NA, void.vol.timethresh = 30, 
+    replacezeroswithNA = TRUE, scoreweight = 30, filepattern = ".cdf", 
+    charge_type = "pos", minexp.pct = 0.1, syssleep = 0.5)
 }
 \arguments{
   \item{cdfloc}{The folder where all CDF/mzXML files to be processed are located. For example "C:/CDF/"}

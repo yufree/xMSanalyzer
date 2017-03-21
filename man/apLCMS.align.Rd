@@ -3,10 +3,10 @@
 \title{apLCMS.align}
 \description{Call apLCMS function, cdf.to.ftr, at different parameter settings}
 \usage{
-apLCMS.align(cdfloc, apLCMS.outloc, min.run.list = c(3,3), min.pres.list = c(0.3, 0.8), 
-minexp = 2, mztol = 1e-5, alignmztol = NA, alignchrtol=NA, 
-numnodes = 2, run.order.file = NA, subs = NA,filepattern=".cdf",
-apLCMSmode = "untargeted", known_table, match_tol_ppm = 5)
+apLCMS.align(cdfloc, apLCMS.outloc, min.run.list = c(3, 3), min.pres.list = c(0.3, 
+    0.8), minexp = 2, mztol = 1e-05, alignmztol = NA, alignchrtol = NA, numnodes = 2, 
+    run.order.file = NA, subs = NA, filepattern = ".cdf", apLCMSmode = "untargeted", 
+    known_table, match_tol_ppm = 5)
 }
 \arguments{
   \item{cdfloc}{The folder where all NetCDF/mzML/mzXML/mzData files to be processed are located. For example "C:/experiment1/cdf/"}

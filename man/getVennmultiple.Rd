@@ -6,8 +6,8 @@ Venn diagram showing the extent of overlap between three datasets.
 }
 \usage{
 getVennmultiple(dataA, name_a, dataB, name_b, dataC, name_c, mz.thresh = 10, 
-time.thresh = 30, alignment.tool, xMSanalyzer.outloc,use.unique.mz=FALSE,
-plotvenn=TRUE)
+    time.thresh = 30, alignment.tool, xMSanalyzer.outloc, use.unique.mz = FALSE, 
+    plotvenn = TRUE)
 }
 \arguments{
   \item{dataA}{apLCMS or XCMS feature table for dataset A as a data frame.}

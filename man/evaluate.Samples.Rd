@@ -2,8 +2,10 @@
 \alias{evaluate.Samples}
 \title{evaluate.Samples}
 \description{Evaluate sample consistency based on Pearson or Spearman Correlation.}
-\usage{evaluate.Samples(curdata, numreplicates, alignment.tool, cormethod = "pearson",
-missingvalue = 0, ignore.missing = TRUE, replace.bad.replicates = TRUE)}
+\usage{
+evaluate.Samples(curdata, numreplicates, alignment.tool, cormethod = "pearson", 
+    missingvalue = 0, ignore.missing = TRUE, replace.bad.replicates = TRUE)
+}
 \arguments{
   \item{curdata}{feature alignment output matrix from apLCMS or XCMS with intensities}
   \item{numreplicates}{number of technical replicates per sample}

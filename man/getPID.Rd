@@ -4,7 +4,9 @@
 \description{ Evaluate feature consistency based on PID. PID is defined as percent ratio of absolute intensity
 difference to mean intensity deviation to mean intensity. Only samples with no missing values within  
 technical replicates are used to evaluate PID.}
-\usage{getPID(curdata, alignment.tool,missingvalue)}
+\usage{
+getPID(curdata, alignment.tool, missingvalue)
+}
 \arguments{
  \item{curdata}{Feature alignment output matrix from apLCMS or XCMS with sample intensities}
   \item{alignment.tool}{Name of the feature alignment tool eg: "apLCMS" or "XCMS"}

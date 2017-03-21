@@ -7,8 +7,9 @@ following user defined criteria:
 1) Maximum m/z difference (+/-) ppm
 2) Maximum retention time difference in seconds
 }
-\usage{find.Overlapping.mzs(dataA, dataB, mz.thresh = 10, time.thresh = NA,
-alignment.tool=NA)}
+\usage{
+find.Overlapping.mzs(dataA, dataB, mz.thresh = 10, time.thresh = NA, alignment.tool = NA)
+}
 \arguments{
   \item{dataA}{ apLCMS or XCMS feature table for dataset A}
   \item{dataB}{ apLCMS or XCMS feature table for dataset B}

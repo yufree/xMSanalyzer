@@ -28,9 +28,7 @@ of large-scale, non-targeted metabolomics data, BMC Bioinformatics, 2013
 Tianwei Yu. apLCMS - Adaptive Processing of High-Resolution LC/MS Data. Bioinformatics. 2009. 
 C.A. Smith, E.J. Want, G.C. Tong, R. Abagyan, and G. Siuzdak. XCMS: Processing Mass Spectrometry Data for
 Metabolite Profiling Using Nonlinear Peak Alignment, Matching, and Identification. Analytical Chemistry, 2006.
-Tautenhahn R, Bˆttcher C, Neumann S. Highly sensitive feature detection for high resolution LC/MS. 
+Tautenhahn R, B¸æç¶òºttcher C, Neumann S. Highly sensitive feature detection for high resolution LC/MS. 
 BMC Bioinformatics. 2008 Nov 28.
 }
 \keyword{ xMSanalyzer }
-
-

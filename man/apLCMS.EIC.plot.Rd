@@ -4,7 +4,7 @@
 \description{Modified version of the EIC plot function in apLCMS}
 \usage{
 apLCMS.EIC.plot(aligned, rows = NA, colors = NA, transform = "none", subset = NA, 
-minrt = NA, maxrt = NA, min.run = 12, min.pres = 0.5, max.spline.time.points = 1000)
+    minrt = NA, maxrt = NA, min.run = 12, min.pres = 0.5, max.spline.time.points = 1000)
 }
 \arguments{
   \item{aligned}{Rda object from apLCMS}

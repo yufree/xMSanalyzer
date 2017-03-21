@@ -3,8 +3,10 @@
 \title{getVenn}
 \description{This utility calls the find.Overlapping.mzs function and generates a 
 Venn diagram showing the extent of overlap between two datasets.}
-\usage{getVenn(dataA, name_a, dataB, name_b, mz.thresh = 10, time.thresh=30,
-alignment.tool, xMSanalyzer.outloc,use.unique.mz=FALSE,plotvenn=TRUE)}
+\usage{
+getVenn(dataA, name_a, dataB, name_b, mz.thresh = 10, time.thresh = 30, alignment.tool, 
+    xMSanalyzer.outloc, use.unique.mz = FALSE, plotvenn = TRUE)
+}
 \arguments{
   \item{dataA}{apLCMS or XCMS feature table for dataset A as a data frame.}
   \item{name_a}{Name of dataset A (eg: "SetA"). }

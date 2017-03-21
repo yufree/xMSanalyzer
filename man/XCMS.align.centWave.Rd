@@ -4,11 +4,11 @@
 \description{Wrapper function for XCMS using the centwave alignment algorithm.}
 \usage{
 XCMS.align.centWave(cdfloc, XCMS.outloc, ppm.list = c(10), mz.diff.list = c(-0.001), 
-sn.thresh.list = c(10), prefilter.list = c(3, 100), bw.val = c(10), 
-groupval.method = "medret", step.list = c(0.1), max = 50, minfrac.val = 0.5, 
-minsamp.val = 1, mzwid.val = 0.25, sleep.val = 0, run.order.file = NA, subs = NA, 
-retcor.method = "obiwarp", retcor.family = "symmetric", retcor.plottype = "deviation",
-peakwidth = c(20, 50), nSlaves=2)
+    sn.thresh.list = c(10), prefilter.list = c(3, 100), bw.val = c(10), 
+    groupval.method = "medret", step.list = c(0.1), max = 50, minfrac.val = 0.5, 
+    minsamp.val = 1, mzwid.val = 0.25, sleep.val = 0, run.order.file = NA, 
+    subs = NA, retcor.method = "obiwarp", retcor.family = "symmetric", 
+    retcor.plottype = "deviation", peakwidth = c(20, 50), nSlaves = 2)
 }
 \arguments{
   \item{cdfloc}{The folder where all CDF/mzXML files to be processed are located. For example "C:/CDF/"}

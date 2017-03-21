@@ -5,8 +5,10 @@
 Only calculate CV for samples for which a signal is detected in at least 60% of technical replicates.  
 If signal is detected in 60% of technical replicates, then the missing values are replaced by mean intensity
 which is calculated using non-missing replicates.}
-\usage{getCVreplicates(curdata, alignment.tool, numreplicates,
-min.samp.percent=0.6, impute.bool=TRUE, missingvalue)}
+\usage{
+getCVreplicates(curdata, alignment.tool, numreplicates, min.samp.percent = 0.6, 
+    impute.bool = TRUE, missingvalue)
+}
 \arguments{
   \item{curdata}{Feature alignment output matrix from apLCMS or XCMS with sample intensities}
   \item{alignment.tool}{Name of the feature alignment tool eg: "apLCMS" or "XCMS"}

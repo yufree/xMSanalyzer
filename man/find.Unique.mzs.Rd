@@ -2,7 +2,9 @@
 \alias{find.Unique.mzs}
 \title{find.Unique.mzs}
 \description{This function finds unique m/zs between two datasets.}
-\usage{find.Unique.mzs(dataA, dataB, mz.thresh = 10, time.thresh=NA, alignment.tool)}
+\usage{
+find.Unique.mzs(dataA, dataB, mz.thresh = 10, time.thresh = NA, alignment.tool)
+}
 \arguments{
   \item{dataA}{apLCMS or XCMS feature table for dataset A}
   \item{dataB}{apLCMS or XCMS feature table for dataset B}

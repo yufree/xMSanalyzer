@@ -2,8 +2,10 @@
 \alias{feat.batch.annotation.KEGG}
 \title{feat.batch.annotation.KEGG}
 \description{Batch annotation of features using KEGG REST for one or more adducts.}
-\usage{feat.batch.annotation.KEGG(dataA, max.mz.diff=10, queryadductlist=c("M+H"),
-xMSanalyzer.outloc,numnodes=1,syssleep=1)}
+\usage{
+feat.batch.annotation.KEGG(dataA, max.mz.diff = 10, queryadductlist = c("M+H"), 
+    xMSanalyzer.outloc, numnodes = 1, syssleep = 1)
+}
 \arguments{
   \item{dataA}{Feature table from apLCMS or XCMS. The first column should be m/z.}
   \item{max.mz.diff}{Metlin matching m/z threshold in ppm. eg: 5}

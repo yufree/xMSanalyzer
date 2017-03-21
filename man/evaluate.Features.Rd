@@ -6,8 +6,8 @@ Reports quantile distribution of PID or CV within technical replicates across al
 quantitative reproducibility score, QRscore, which is defined as the ratio of percentage of biological samples 
 for which more than 50 percent of technical replicates have a signal and median PID or CV }
 \usage{
-evaluate.Features(curdata, numreplicates, min.samp.percent = 0.6,alignment.tool,
-impute.bool,missingvalue=0)
+evaluate.Features(curdata, numreplicates, min.samp.percent = 0.6, alignment.tool, 
+    impute.bool, missingvalue = 0)
 }
 \arguments{
   \item{curdata}{Feature table from apLCMS or XCMS with sample intensities.}

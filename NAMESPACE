@@ -1,4 +1,3 @@
-
 export(xMSwrapper, xMSwrapper.apLCMS,xMSwrapper.XCMS.matchedFilter,
 feat.batch.annotation.KEGG, getVenn, getVennmultiple,evaluate.Samples,
 evaluate.Features,find.Overlapping.mzs,check.mz.in.replicates,

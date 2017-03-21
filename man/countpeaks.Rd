@@ -3,7 +3,7 @@
 \title{countpeaks}
 \description{Count the number of signals in the intensity vector.}
 \usage{
-countpeaks(intensity_vec, missing_val=0)
+countpeaks(intensity_vec, missing_val = 0)
 }
 \arguments{
   \item{intensity_vec}{Vector of intensities}
