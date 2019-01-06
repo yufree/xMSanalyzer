@@ -10,6 +10,6 @@ Description: xMSanalyzer comprises of utilities that can be classified into four
 License: GPL2.0
 LazyLoad: yes
 Depends: apLCMS, xcms, XML, R2HTML, limma, RCurl, doSNOW, mzR,
-        foreach, sva, mixOmics, WGCNA
+        foreach, sva, WGCNA
 Packaged: 2015-05-21 17:48:43 UTC; Karan
 RoxygenNote: 6.0.1
